@@ -6,6 +6,8 @@ FPGA实验用DE10-Standard开发板引脚表
 
 数据来源：DE10-Standard User Manual
 
+更新：Excel版本已上线，可直接复制到Quartus中。
+
 ## 输入
 ### 开关 Slide Switches (SW)
 | Signal Name | FPGA Pin No. |  Description | I/O Standard |

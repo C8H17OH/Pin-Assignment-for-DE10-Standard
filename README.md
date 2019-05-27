@@ -8,6 +8,8 @@ FPGA实验用DE10-Standard开发板引脚表
 
 更新：Excel版本已上线，可直接复制到Quartus中。
 
+更新：七段数码管数值对应表已上线，内含Verilog代码。
+
 ## 输入
 ### 开关 Slide Switches (SW)
 | Signal Name | FPGA Pin No. |  Description | I/O Standard |

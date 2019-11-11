@@ -10,6 +10,8 @@ FPGA实验用DE10-Standard开发板引脚表
 
 更新：七段数码管数值对应表已上线，内含Verilog代码。
 
+更新：PS/2键盘接口已在Markdown和Excel文件中上线。
+
 ## 输入
 ### 开关 Slide Switches (SW)
 | Signal Name | FPGA Pin No. |  Description | I/O Standard |
@@ -42,6 +44,14 @@ FPGA实验用DE10-Standard开发板引脚表
 | CLOCK4_50 | PIN_K14 | 50 MHz clock input | 3.3V |
 | HPS_CLOCK1_25 | PIN_D25 | 25 MHz clock input | 3.3V |
 | HPS_CLOCK2_25 | PIN_F25 | 25 MHz clock input | 3.3V |
+
+### 键盘 PS/2 Serial Port (PS2)
+| Signal Name | FPGA Pin No. | Description	I/O Standard |
+| -------- | -------- | -------- | -------- |
+| PS2_CLK | PIN_AB25 | PS/2 Clock | 3.3V |
+| PS2_DAT | PIN_AA25 | PS/2 Data | 3.3V |
+| PS2_CLK2 | PIN_AC25 | PS/2 Clock (reserved for second PS/2 device) | 3.3V |
+| PS2_DAT2 | PIN_AB26 | PS/2 Data (reserved for second PS/2 device)	| 3.3V |
 
 ## 输出
 ### 灯泡 LEDs (LEDR)

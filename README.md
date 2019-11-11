@@ -46,7 +46,7 @@ FPGA实验用DE10-Standard开发板引脚表
 | HPS_CLOCK2_25 | PIN_F25 | 25 MHz clock input | 3.3V |
 
 ### 键盘 PS/2 Serial Port (PS2)
-| Signal Name | FPGA Pin No. | Description	I/O Standard |
+| Signal Name | FPGA Pin No. | Description | I/O Standard |
 | -------- | -------- | -------- | -------- |
 | PS2_CLK | PIN_AB25 | PS/2 Clock | 3.3V |
 | PS2_DAT | PIN_AA25 | PS/2 Data | 3.3V |
